@@ -1,0 +1,41 @@
+package cl.generation.f20221024;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//variable primitivas
+		//las variables en java se diferencian con las de javascript en que las de java 
+		//necesitan saber de qué tipo de variables son (variables primitivas; cáracter estático
+		int numero = 2; // int variable numérica (-2,147,483,648 y el máximo 2,147,483,647)
+		
+		long numero2 =2147483648l; //Su valor mínimo es -9,223,372,036,854,775,808 y el máximo 9,223,372,036,854,775,807
+								   // l de long 
+					   // es estático
+		float decimal= 2.5f; //la f se agrega para que no de error
+		float decimal2 = (float) 2.5;// otro tipo de resolución para el error 
+		//es posible representar números en el rango de 1.4x10-45 a 3.4028235x1038.
+		
+		double decimal3= 9.8d; // d de double
+		
+		char caracter = '2';// la diferencia de un String(que usa comillas dobles y un carácter es que los char se trabajan con
+							//con comillas simples
+		
+		boolean respuesta=true;//false (solo eso dos)
+		System.out.println(numero+" "+numero2+ " "+ decimal+" "+ decimal2 + " "+ decimal3 + " " + caracter);
+		
+		//short y byte
+
+		
+		
+		//variable objeto		
+		Integer numero3 =2; //mismo tamaño que el int
+		//numero2.
+		String palabra = "ifubvjse"; // se escribe con la primera letra en mayúscula porque se toma
+									//como un agrego de tipo char DONDE SE REVISA 
+									// CADA TIPO DE LOS CARACTERES
+		//palabra.
+
+
+	}
+
+}

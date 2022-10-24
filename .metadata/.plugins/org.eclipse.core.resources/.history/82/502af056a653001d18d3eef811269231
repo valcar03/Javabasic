@@ -1,0 +1,24 @@
+package cl.generation.f20221024;
+
+public class ejercicio1java {
+
+	public static void main(String[] args) {
+		//de Integer a String
+		Integer a = 12345;
+		String b = a.toString();
+		System.out.println(b);
+		
+		
+		Integer c = 54321;
+		String d = String.valueOf(c);
+		System.out.println(d);
+		
+		
+		//de Integer a Float
+		Integer e = 67890;
+		Float f = Float.valueOf(e);
+		System.out.println(f);
+		
+	}
+
+}

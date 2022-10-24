@@ -1,0 +1,11 @@
+package cl.generation.f20221024;
+
+public class ejercicio1java {
+
+	public static void main(String[] args) {
+		Integer a = 12345;
+		a = a.valueOf(String);
+		System.out.println(a);
+	}
+
+}
