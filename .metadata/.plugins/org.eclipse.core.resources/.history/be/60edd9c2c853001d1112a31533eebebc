@@ -1,0 +1,46 @@
+package cl.generation.f20221024;
+
+import java.util.Arrays;
+
+public class arreglos {
+
+	public static void main(String[] args) {
+		// Arreglo (arrays) en java(estáticos en el tamaño)una variable(conjunto de datos) que 
+		//contiene muchos datos del mismo tipo (numérico)
+		int[] arreglo = new int [3];
+		//tipodedato[] nombredelarray=new tipodedato[cantidad de datos a almacenar];
+		//agregar datos
+		arreglo[0] = 4;
+		arreglo[1] = 8;
+		arreglo[2] = 12;
+		//arreglo[3] = 24;error, fuera de índice
+		//donde no deja double y long, espera datos int
+		System.out.println(arreglo.toString());
+		System.out.println(Arrays.toString(arreglo));
+		//arreglo.lenght;tamaño del arreglo
+		
+		String [] vocales = {"a","e","i", "o", "u"};
+		System.out.println("cantidad de elementos" + vocales.length);
+		vocales[1]= "o";
+		vocales[3]= "e";
+		vocales[2]= "y";
+		vocales[0]= 1+"";
+		
+		//crear un  array de números float de tamaño 6
+		float[] numeros = new float[6];//{1,2,3,4,5,6}
+		//agregar 6 elementos al arreglo
+		numeros[0] = 33;
+		
+		int[] numeroInt= new int[2];
+				numeroInt[0]=(int) 0.2;//0.0
+				System.out.println(numeroInt[0]);
+				
+		//crear un arreglo de enteros tamaño 100 y agregar valores dinámicamente, desde el 1 al 100
+		int[]num = new int [100];
+		for(int i=0;i< num.length; i++) {
+			num[i] = i+1;
+			
+		}
+
+
+}}

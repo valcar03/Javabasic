@@ -58,6 +58,9 @@ public class ejercicio1java {
 		Double t = Double.valueOf(s);
 		System.out.println(t);
 		
+		//value.of retorna un número numérico; parseint entrega un primitivo
+		
+		
 	}
 
 }

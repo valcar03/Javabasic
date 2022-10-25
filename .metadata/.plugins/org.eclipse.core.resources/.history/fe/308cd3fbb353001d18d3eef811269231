@@ -1,0 +1,22 @@
+package cl.generation.f20221024;
+
+public class arreglos {
+
+	public static void main(String[] args) {
+		// Arreglo en java(estáticos en el tamaño)una variable(conjunto de datos) que 
+		//contiene muchos datos del mismo tipo (numérico)
+		int[] arreglo = new int [3];
+		//tipodedato[] nombredelarray=new tipodedato[cantidad de datos a almacenar];
+		//agregar datos
+		arreglo[0] = 4;
+		arreglo[1] = 8;
+		arreglo[2] = 12;
+		//arreglo[3] = 24;error, fuera de índice
+		System.out.println(arreglo);//donde no deja double y long, espera datos int
+		System.out.println(Arrays.toString(arreglo));
+
+	
+		//arreglo.lenght;tamaño del arreglo
+	}
+
+}
